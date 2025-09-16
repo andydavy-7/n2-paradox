@@ -112,7 +112,7 @@ During this phase, Paradox will concurrently conduct and document a deeper analy
         * Concludes with a clear, concise **Problem Statement** or **Needs Statement**.
     * **The Solution Concept:**
         * Presents a well-considered narrative of the proposed solution.
-        * Defines a compelling overview of the solution's essence, purpose, and core value proposition (e.g., structured around key pillars like Real-Time Data Capture, Proactive Oversight, etc.).
+        * Defines a compelling overview of the solution's essence, purpose, and core value proposition (e.g., structured around key pillars).
         * Identifies the high-level functional areas (Modules) that constitute the solution.
         * Details the specific capabilities and functionalities (Features) within each module.
     * **Core Functions & Capabilities:**
