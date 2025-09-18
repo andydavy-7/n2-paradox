@@ -177,7 +177,7 @@ Primary Deliverables:
 4. Executive Summary (exec\_summary.md)  
 5. Clarification Questions (clarifications.md)  
 6. Traceability Matrix (traceability\_matrix.md)  
-7. V0 Prototyping Prompt
+7. V0 Prototyping Prompt (v0\_prompt.md)
 
 ---
 
@@ -273,6 +273,75 @@ Required Sections:
 * Validation Rules: Input validation, business rule validation, security sanitization  
 * Test Suites: Unit, integration, end-to-end, performance, and security testing requirements  
 * Deployment Requirements: Infrastructure needs and operational considerations
+
+#### **V0 Prompt Document (v0\_prompt.md)**
+
+Required Sections:
+
+* Overview
+* Purpose
+
+Required:
+* Visual descriptions of screens
+* Component specifications
+* Interaction mappings
+* Mock data examples
+
+Required Sections:
+* For each user journey:
+ * Identify screens/views needed
+ * Describe layout and components
+ * Map interactions to feedback
+ * Specify mock data requirements
+ * Define success states
+
+Quality Checklist: 
+* Structure:
+  * Overview section sets context clearly
+  * All primary views are described
+  * Each view has clear layout description
+  * Interactions are explicitly stated
+  * Mock behaviors are defined
+
+* Clarity
+  * No technical implementation details
+  * UI components specifically named
+  * User actions and results paired
+  * Visual states described (hover, active, disabled)
+  * Mobile experience included
+
+* Completeness
+  * Sample data requirements listed
+  * Success/error states defined
+  * Empty states considered
+  * Loading states specified
+  * Navigation flow clear
+
+* Demo Quality
+  * Feels like a real product
+  * Core value proposition demonstrated
+  * User can complete primary journey
+  * Feedback is immediate and clear
+  * Reset/refresh capability included
+
+Acceptance Criteria
+- [ ] All [X] main views accessible with mock data
+- [ ] [Primary user flow] completable end-to-end
+- [ ] Interactive elements provide feedback
+- [ ] Filters and search work on mock data
+- [ ] Mobile responsive with touch support
+- [ ] Loading states appear during mock delays
+- [ ] Empty states show when no data
+- [ ] Demo feels realistic and polished
+
+Out of Scope (Prototype)
+- Real authentication or sessions
+- Actual file uploads/downloads
+- Backend API connections
+- Data persistence
+- Third-party service integration
+- Real-time updates
+- Actual calculations/processing
 
 ### **Quality Assurance Standards**
 
