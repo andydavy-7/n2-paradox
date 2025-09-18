@@ -466,7 +466,6 @@ Only include essential fields that appear in the UI:
 ```markdown
 ## v0.app Prompt
 
-```
 Build a sophisticated mock-only Next.js 14 + Tailwind + shadcn/ui [system type] called "[System Name]". 
 Create a fully interactive prototype that DEMONSTRATES the complete user experience without real backends. 
 All data is mocked, all actions show realistic feedback through toasts/modals/animations.
