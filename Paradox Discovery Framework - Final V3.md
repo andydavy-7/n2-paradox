@@ -494,7 +494,6 @@ Sample Data:
 
 Make it feel production-ready with polished interactions, proper loading states, and thoughtful empty states.
 ```
-```
 
 ### 9. Acceptance Criteria
 
