@@ -584,42 +584,6 @@ Make it feel production-ready with polished interactions, proper loading states,
 
 ---
 
-## Sample V0 Section Transformation
-
-### ❌ OLD Style (Too Technical)
-```javascript
-// Document Service Implementation
-export class DocumentService {
-    async createDocument(data, file, userId, orgId) {
-        const client = await pool.connect();
-        try {
-            await client.query('BEGIN');
-            // ... implementation code
-        }
-    }
-}
-```
-
-### ✅ NEW Style (UI-Focused)
-```markdown
-### Document Upload
-**Upload Button:** Primary blue button in top-right corner
-**Click Action:** Opens multi-step modal wizard
-**Wizard Steps:**
-1. Drag-drop zone with file type validation badges
-2. Metadata form with title, category dropdown, tags input
-3. Workflow selector with visual workflow preview
-4. Success screen with confetti animation
-
-**Mock Behavior:**
-- Drag file → shows upload progress bar (2 seconds)
-- Form validation → shows inline errors
-- Submit → success toast "Document uploaded successfully"
-- Modal closes → new document appears in grid
-```
-
----
-
 ## V0 Prompt Quality Checklist
 
 Before submitting your V0 prompt, verify:
@@ -684,16 +648,6 @@ For each feature, specify:
 - Describe the interface, not the implementation
 - Focus on what users see and do
 - Make it exciting and visual
-
----
-
-## Example Transformation
-
-### Original Paradox Output (Technical):
-"The system shall validate document metadata against business rules BR-001 through BR-005, storing validated data in PostgreSQL with foreign key constraints to the workflow table."
-
-### V0 Prompt Version (Visual):
-"When users click 'Next' in the upload wizard, the form shows inline validation with red error text for missing required fields. Fields turn green with checkmarks when valid. The 'Submit' button enables only when all validations pass."
 
 ---
 
