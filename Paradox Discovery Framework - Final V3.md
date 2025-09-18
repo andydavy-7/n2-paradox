@@ -330,11 +330,10 @@ Solution proposals must be technically feasible within stated constraints and in
 * Framework Evolution: Continuous improvement based on project outcomes and user feedback
 
 ---
-**Key Principle:** V0 prototypes should DEMONSTRATE the solution experience, not BUILD the solution infrastructure.
-
----
 
 ## V0 Documentation Template
+
+**Key Principle:** V0 prototypes should DEMONSTRATE the solution experience, not BUILD the solution infrastructure.
 
 ### 1. Document Header
 ```markdown
@@ -415,7 +414,7 @@ Only include essential fields that appear in the UI:
   priority, progress, actions[]
 }
 ```
-```
+
 
 ### 6. Non-Functional UI Requirements
 
